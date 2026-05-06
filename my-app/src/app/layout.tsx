@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 import { cn } from "@/lib/utils";
 
 const playfairDisplayHeading = Playfair_Display({subsets:['latin'],variable:'--font-heading'});
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

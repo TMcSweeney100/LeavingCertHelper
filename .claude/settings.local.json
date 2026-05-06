@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"/mnt/c/Programing/ProjectCAO/.claude/worktrees/trusting-beaver-5a8d1c/\")",
+      "Bash(git -C \"C:\\\\Programing\\\\ProjectCAO\" branch -a)"
+    ]
+  }
+}
